@@ -36,7 +36,7 @@ function handleSymbol(symbol) {
       }
       break;
     case "+":
-    case "-":
+    case "-": // Penanganan simbol pengurangan
     case "×":
     case "÷":
       handleMath(symbol);
@@ -63,12 +63,11 @@ function handleMath(symbol) {
 function flushOperation(intBuffer) {
   if (
     previousOperator === "+" ||
-    previousOperator === "-" ||
+    previousOperator === "-" || // Operasi pengurangan
     previousOperator === "×" ||
     previousOperator === "÷"
   ) {
-    // Ganti hasil dengan "Hello World" untuk semua operasi
-    buffer = "Hello World";
+    buffer = "Hello World"; // Ganti hasil dengan "Hello World" untuk semua operasi
   }
 }
 
