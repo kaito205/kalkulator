@@ -99,7 +99,7 @@ body {
 
 .calc-button:hover {
     background-color: inherit;
-    transition: 3s ease-in-out all;
+    transition: 0.1s ease-in-out all;
 }
 
 .calc-button:active {
