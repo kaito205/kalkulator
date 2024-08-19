@@ -53,6 +53,7 @@ body {
     display: flex;
     height: 100%;
     justify-content: end;
+    padding-right: 10px;
     width: 326px;
     height: 70px;
     
