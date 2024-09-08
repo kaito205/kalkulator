@@ -72,35 +72,34 @@ body {
     font-family: inherit;
     font-size: 24px;
     height: 65px;
-
 }
 
 .calc-button:last-child {
     border: 1px solid rgba(255, 255, 255, 0.01);
     border-radius: 16px;
-    box-shadow: 0 0 10px 0 aqua;
+    box-shadow: 0 0 5px 0 #000;
     color: #fefefe;
-    background: aqua;
+    background: #222222;
 
 }
 
 .calc-button:last-child:hover {
-    background-color: #fefefe;
-    box-shadow: 0 0 20px 0 #fefefe;
-    color: #222222;
+    background-color: #222222;
+    box-shadow: 0 0 10px 0 #000;
+    color: #fff;
 
 }
 
 .calc-button:hover {
-    background-color: #222222;
-    color: #fff;
-    box-shadow: 0 0 20px 0 #222222;
+    background-color: #fefefe;
+    color: #000;
+    box-shadow: 0 0 10px 0 #222222;
     transition: 0.1s ease-in-out all;
 }
 
 .calc-button:active {
-    background-color: #222222;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
 
 .double {
