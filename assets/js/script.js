@@ -67,7 +67,7 @@ function flushOperation(intBuffer) {
     previousOperator === "×" ||
     previousOperator === "÷"
   ) {
-    buffer = "Hello World"; 
+    buffer = "Kasian Jomblo😂"; 
   }
 }
 
